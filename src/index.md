@@ -52,8 +52,8 @@ const this_year = (() => {
 // Senario radios
 const this_scenario = (() => {
   const wrapper = html`<div class="radio-inline"></div>`;
-  const labelEl = html`<span class="radio-label">Policy scenario:</span>`;
-  const form = html`<form role="radiogroup" aria-label="Policy scenario">
+  const labelEl = html`<span class="radio-label">National policy scenario:</span>`;
+  const form = html`<form role="radiogroup" aria-label="National policy scenario">
     <label><input type="radio" name="scenario" value="BAU" checked> Business as usual</label>
     <label><input type="radio" name="scenario" value="Stress"> Climate Stress</label>
     <label><input type="radio" name="scenario" value="Sustainable"> Sustainability / Net Zero</label>
